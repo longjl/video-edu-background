@@ -1,0 +1,57 @@
+{
+  "name": "video-edu-background",
+  "version": "1.0.0",
+  "description": "video edu.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --quiet",
+    "dist": "NODE_ENV=development gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.dora.how/lab/grow-edu"
+  },
+  "keywords": [
+    "vue",
+    "router",
+    "webpack",
+    "vue-resource",
+    "kaike"
+  ],
+  "author": "longjianlin",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.21.0",
+    "cssnext-loader": "^1.0.1",
+    "del": "^2.0.2",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "file-loader": "^0.8.4",
+    "gulp": "^3.9.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.4.2",
+    "html-loader": "^0.3.0",
+    "json-loader": "^0.5.3",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "vue-hot-reload-api": "^1.2.0",
+    "vue-html-loader": "^1.0.0",
+    "vue-html5-editor": "^0.1.7",
+    "vue-loader": "^7.0.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.12.0",
+    "webpack-zepto": "0.0.1"
+  },
+  "dependencies": {
+    "es6-promise": "^3.0.2",
+    "firebase": "^2.3.1",
+    "vue": "^1.0.8",
+    "vue-file-upload": "0.0.6",
+    "vue-resource": "^0.1.17",
+    "vue-router": "^0.7.7",
+    "vue-strap": "1.0.3",
+    "vue-validator": "2.0.0-alpha.8",
+    "vuex": "0.2.0"
+  }
+}
